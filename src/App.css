@@ -1,38 +1,109 @@
+/* Import Libre Baskerville */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  background: linear-gradient(160deg, #5b4a97, #9c6bb9); /* cosmic gradient */
+  color: #fefefe; /* readable light text */
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #fefefe; /* solid white, no gradient */
+  margin: 0.5rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fefefe; 
+  margin: 0.5rem 0 1rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+  color: #f7c6d9; 
+  font-weight: 600;
+}
+
+a:hover {
+  color: #d8b4ff; 
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  background-color: #f7c6d9;
+  color: #2e1a47; 
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #d8b4ff;
+  color: #2e1a47;
+}
+
+/* Sections */
+section {
+  padding: 4rem 2rem;
+}
+
+/* Navbar adjustments */
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem 2rem;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links li a {
+  color: #fefefe;
+  transition: 0.3s;
 }
+
+.nav-links li a:hover {
+  color: #f7c6d9;
+}
+
+
+a {
+  color: #ffffff !important;  
+  text-decoration: underline !important;
+}
+
+
+a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.hero-title {
+  font-size: 3rem; 
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #ffcdb2;  
+}
+
