@@ -74,7 +74,7 @@
 
   .skills-box {
     width: 75%;      /* fixed width for all boxes */
-    height: 240px; 
+    height: 260px; 
     aspect-ratio: 5 / 4;    /* fixed height for all boxes */
     display: flex;
     flex-direction: column;
