@@ -66,15 +66,14 @@
 
 @media (max-width: 768px) {
   .skills-container {
-    flex-wrap: wrap;      /* allow wrapping */
-    flex-direction: column; /* stack vertically */
-    gap: 1.3rem;            /* smaller gap between boxes */
-    overflow-x: visible;  /* remove horizontal scroll */
-    align-items: center;  /* center boxes horizontally */
+    flex-direction: column; /* stack boxes */
+    flex-wrap: nowrap;       /* no horizontal scroll */
+    align-items: center;     /* center horizontally */
+    gap: 1.5rem;       /* center boxes horizontally */
   }
 
   .skills-box {
-    width: 90%;      /* fixed width for all boxes */
+    width: 75%;      /* fixed width for all boxes */
     height: 240px; 
     aspect-ratio: 5 / 4;    /* fixed height for all boxes */
     display: flex;

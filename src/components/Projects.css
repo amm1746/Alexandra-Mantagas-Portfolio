@@ -64,13 +64,13 @@
   .project-grid {
     flex-direction: column; /* stack cards vertically */
     gap: 1rem;
-    align-items: center; /* center horizontally */
+    align-items: center !important; /* center horizontally */
   }
 
   .project-card {
     width: 90%;         /* almost full width on mobile */
-    height: 400px;   /* optional max width */
-    aspect-ratio: 5 / 4; /* height scales with width for uniformity */
+    max-width: 350px;
+    height: auto;   /* optional max width */
     padding: 1.5rem;    /* reduce padding on small screens */
   }
 
