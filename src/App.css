@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
-  background: linear-gradient(160deg, #5b4a97, #9c6bb9); /* cosmic gradient */
+  background: linear-gradient(160deg, #5b4a97, #9c6bb9); 
   color: #fefefe;
   overflow-x: hidden;
 }

@@ -66,22 +66,22 @@
 
 @media (max-width: 768px) {
   .skills-container {
-    flex-direction: column; /* stack boxes */
-    flex-wrap: nowrap;       /* no horizontal scroll */
-    align-items: center;     /* center horizontally */
-    gap: 1.5rem;       /* center boxes horizontally */
+    flex-direction: column; 
+    flex-wrap: nowrap;       
+    align-items: center;     
+    gap: 1.5rem;       
   }
 
   .skills-box {
-    width: 75%;      /* fixed width for all boxes */
+    width: 75%;      
     height: 260px; 
-    aspect-ratio: 5 / 4;    /* fixed height for all boxes */
+    aspect-ratio: 5 / 4;    
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;    /* optional max width */
+    justify-content: flex-start;    
   }
 
   .section-title {
-    font-size: 2.2rem;    /* scale down title on mobile */
+    font-size: 2.2rem;    
   }
 }

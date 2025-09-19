@@ -10,7 +10,7 @@ const ProjectCard = ({ image, title, description, tech, demoLink, githubLink }) 
       <p><strong>Tech:</strong> {tech.join(", ")}</p>
       <div className="links">
         {demoLink && <a href={demoLink} target="_blank">Live Demo</a>}
-        {githubLink && <x href={githubLink} target="_blank">GitHub</x>}
+        {githubLink && <a href={githubLink} target="_blank">GitHub</a>}
       </div>
     </div>
   );

@@ -24,9 +24,9 @@
   padding: 2rem;
   width: 280px;
   max-width: 90%;
-  text-align: center;   /* center content on mobile */
+  text-align: center;   
   box-sizing: border-box;
-  margin: 0;            /* remove default margin */
+  margin: 0;            
   transition: transform 0.3s;
 }
 
@@ -67,16 +67,16 @@
 
 @media (max-width: 768px) {
   .project-grid {
-    flex-direction: column; /* stack cards vertically */
+    flex-direction: column; 
     gap: 1.5rem;
-    align-items: center !important; /* center horizontally */
+    align-items: center !important; 
   }
 
   .project-card {
-    width: 90%;         /* almost full width on mobile */
+    width: 90%;         
     max-width: 350px;
-    height: auto;   /* optional max width */
-    padding: 1.5rem;    /* reduce padding on small screens */
+    height: auto;  
+    padding: 1.5rem;    
   }
 
   .project-image {
@@ -84,11 +84,11 @@
     height: 200px;
     object-fit: contain;
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
 
 
   .section-title {
-    font-size: 2.2rem;  /* scale title down for mobile */
+    font-size: 2.2rem;  
   }
 }
