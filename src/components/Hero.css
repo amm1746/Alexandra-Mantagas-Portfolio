@@ -10,3 +10,27 @@
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.9rem !important;
+  flex-wrap: wrap; /* stack buttons on small screens */
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem !important;
+  border-radius: 100px !important;
+  background-color: #2e1a47 !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #2e1a47;
+  color: #2e1a47;
+}
+

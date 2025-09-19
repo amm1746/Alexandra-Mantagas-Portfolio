@@ -1,6 +1,6 @@
 .skills-section {
   padding: 4rem 2rem;
-  background: linear-gradient(160deg, #2e1a47, #412a7c);
+  background: linear-gradient(160deg, #2e1a47, #5736ab);
   color: #fefefe;
   text-align: center;
 }
@@ -62,4 +62,27 @@
   width: 20px;
   height: 20px;
   fill: #f7c6d9; 
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-wrap: wrap;      /* allow wrapping */
+    flex-direction: column; /* stack vertically */
+    gap: 1.3rem;            /* smaller gap between boxes */
+    overflow-x: visible;  /* remove horizontal scroll */
+    align-items: center;  /* center boxes horizontally */
+  }
+
+  .skills-box {
+    width: 90%;      /* fixed width for all boxes */
+    height: 240px; 
+    aspect-ratio: 5 / 4;    /* fixed height for all boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    /* optional max width */
+  }
+
+  .section-title {
+    font-size: 2.2rem;    /* scale down title on mobile */
+  }
 }

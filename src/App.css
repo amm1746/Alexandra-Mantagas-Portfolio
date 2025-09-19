@@ -40,7 +40,6 @@ a:hover {
   border-radius: 50px;
   background-color: #f7c6d9;
   color: #2e1a47; 
-  font-weight: bold;
   transition: 0.3s;
 }
 
@@ -57,7 +56,6 @@ section {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 2rem;
   background: rgba(0,0,0,0.3);
   backdrop-filter: blur(10px);
@@ -84,6 +82,12 @@ section {
 
 a {
   color: #ffffff !important;  
+  text-decoration: none !important;
+}
+
+x {
+  color: #ffffff !important;  
+  font-weight: 600;
   text-decoration: underline !important;
 }
 
@@ -143,4 +147,6 @@ a:hover {
   section {
     padding: 2rem 0.5rem;
   }
+
+  
 }
